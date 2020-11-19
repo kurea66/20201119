@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="Stylesheet" href="css/main.css"/>
+		<title>11月19日講義内容</title>
+	</head>
+	<body>
+		<h1>11月19日講義内容</h1>
+
+		<h2>git</h2>
+		<p><b>git commit --ammend</b>・・・前回のこっみとを修正し、上書きする。</p>
+		<p>git commig <b>--am</b>・・・amオプションをつけることでアドとコミットを同時に行える。</p>
+		<p>git<b> reset --hard HEAD~</b>・・・resetはコミットを消すコマンド。<b>--hard</b>は強制的に,<b>HEAD~</b>でひとつ前の状態に戻る。<b>~2,~3</b>とすることで2つ前、２つ前の状態にも戻れる</p>
+		<a href="https://joytas.net/programming/git/amend-reset" target="_blank">上記内容記載ページ</a>
+		<h3>Chromeでmdファイルを使用する方法</h3>
+		<p>MarkDown viewerを追加</p>
+		<p>右上のハンマーみたいなの押す⇒MarkDown viewerクリック</p>
+		<p>下のアドなんちゃらクリックして開いた画面のurl許可をon</p>
+
+		<h2>html</h2>
+		<p><b>h2 + p{}</b>h2の次に隣接するp要素にのみスタイルを充てる。+を使うと親要素の次の要素のみに当たる。
+
+		<h3>FlexBox</h3>
+		<p><b>display: flex;</b>・・・子要素が横や縦に指定した通り並ぶ。</p>
+		<p><b>初期値は<b>row</b>で横並び。
+		<p><b>flex-direction: 値;</b>並ぶ方向。　<b>rowで横並びcolumnで縦並び。wrap折り返し</b>
+		<br>また値の後ろにreverseをつけると逆向きに並ぶ。</p>
+		<p><b>justify-content:値</b>・・・右詰めや中央揃え、スペース明け等を指定できる。
+		<br>flex-end 右詰め　space-between 間をあけて右と左は端に寄せる。
+		<br><b>align-items:flex-start;</b>・・・align-itemsは垂直方向の揃え。
+		<br>stretchが初期値。　縦に伸ばして揃える。　filex-startは上にくっつけて揃える。</p>
+		<p><b>.コンテナ名:nth-child(odd) img{}</b>odd(奇数)番目の子要素</b></p>
+		<h3><b>flex-direction</b></h3>
+		<p><b>flex-directionは主軸を指定する。</b>通常はrowで横軸。
+		<br></b>columnで指定すると主軸が縦軸になりjustify-contentの方向も変わるので注意!!!</b></p>
+		<p><b>align-items</b>は<b>直行軸</b>を指定する。<b>flex-directionが変われば直行軸も変わる</b></p>
+		<p><b>order:値</b>flexで並んでいる要素の順番を指定する。初期値0。
+		<br>例えばred,gree,yellowと並んでおりそれぞれ別要素だとすると、yellowに-2を指定すると1番目に移動する。
+		<br><b>CSSで.red{order:-2;}yellowのコンテンツにclass=redを指定</b></p>
+		<p><b>align-self:値;</b>CSSの中のクラスに個別に指定できる。align-itemsを上書きできる。</p>
+		<p><b>flex-wrap:値</b>要素の折り返しの指定。<b>nowrap</b>・・・詰まって表示折り返さない。
+		<br><b>wrap</b>・・・折り返し表示.<b>wrap-reverse</b>逆順で折り返し.</p>
+		<p><b>flex-flow:値 値</b>flex-directionとflex-wrapを複合したもの。両方の値を同時に指定.</p>
+		<p><b>align-content</b>直行軸に余裕がある場合はほかの行との距離の取り方を指定。</p>
+		<a href="https://flexboxfroggy.com/#ja" target="_blank">Flexカエル</a>
+		<a href="https://joytas.net/programming/website/flexbox" target="_blank">FlexBox説明ページ</a>
+
+		<h2>関数、タグ等</h2>
+		<p>justify・・・正しいとする。揃える。</p>
+		<h2>単語、特記</h2>
+		<p>ammend・・・修正する</p>
+		<p>flex・・・融通の利く、適応性のある。　　曲げる</p>
+	</body>
+</html>
